@@ -1,3 +1,3 @@
 {
-    "connectionString": "mongodb://192.168.1.5:27017/tradebotdb"
+    "connectionString": "mongodb://192.168.1.109:27017/tradebotdb"
 }
