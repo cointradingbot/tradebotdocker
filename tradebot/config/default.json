@@ -13,12 +13,12 @@
     "kafkaClient": "192.168.1.5:9092",
     "tradeProfiles": [
         {
-            "token": "DLT",
+            "token": "TRX",
             "fixedQuantity": 40,
             "plusPointToWin": 0.00000001,
-            "expectedDelta": 0.00000050,
+            "expectedDelta": 0.00000001,
             "baseCoin": "BTC",
-            "exchanges": ["binance", "rightbtc"]
+            "exchanges": ["binance", "huobipro"]
         }
     ],
     "baseCoin": "BTC",

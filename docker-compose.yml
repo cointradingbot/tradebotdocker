@@ -5,20 +5,20 @@ services:
     ports: 
       - "5656:5656"
     volumes: 
-      - ./tradebotapi/config:/tradebotapi/dist/config
+      - ./tradebotapi/config:/tradebotapi/config
     depends_on:
       - mongo
       - kafka
   tradebotstore:
     image: tradebotstore
     volumes: 
-      - ./tradebotstore/config:/tradebotstore/dist/config
+      - ./tradebotstore/config:/tradebotstore/config
     depends_on:
       - mongo
   tradebot:
     image: tradebot
     volumes:
-      - ./tradebot/config:/tradebot/dist/config
+      - ./tradebot/config:/tradebot/config
   zookeeper:
     image: wurstmeister/zookeeper
     ports:
