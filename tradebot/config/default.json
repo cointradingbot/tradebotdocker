@@ -10,7 +10,7 @@
     "tradeFlow": "AutoSwitch",
     "autoBalance": false,
     "usingKafka": true,
-    "kafkaClient": "192.168.1.5:9092",
+    "kafkaClient": "192.168.1.109:9092",
     "tradeProfiles": [
         {
             "token": "TRX",
@@ -18,7 +18,8 @@
             "plusPointToWin": 0.00000001,
             "expectedDelta": 0.00000001,
             "baseCoin": "BTC",
-            "exchanges": ["binance", "huobipro"]
+            "exchanges": ["binance", "huobipro"],
+            "active": true
         }
     ],
     "baseCoin": "BTC",
